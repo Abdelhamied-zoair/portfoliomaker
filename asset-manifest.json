@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfoliomaker/static/css/main.ef78f744.css",
+    "main.js": "/portfoliomaker/static/js/main.8db31307.js",
+    "static/js/453.3804d88f.chunk.js": "/portfoliomaker/static/js/453.3804d88f.chunk.js",
+    "index.html": "/portfoliomaker/index.html",
+    "main.ef78f744.css.map": "/portfoliomaker/static/css/main.ef78f744.css.map",
+    "main.8db31307.js.map": "/portfoliomaker/static/js/main.8db31307.js.map",
+    "453.3804d88f.chunk.js.map": "/portfoliomaker/static/js/453.3804d88f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef78f744.css",
+    "static/js/main.8db31307.js"
+  ]
+}
