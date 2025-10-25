@@ -17,6 +17,7 @@ const ChatBot = () => {
     email: '',
     phone: ''
   });
+  // eslint-disable-next-line no-unused-vars
   const [selectedTemplate, setSelectedTemplate] = useState(null);
   const [language, setLanguage] = useState('english'); // 'english' or 'arabic'
   const [conversationCompleted, setConversationCompleted] = useState(false);
