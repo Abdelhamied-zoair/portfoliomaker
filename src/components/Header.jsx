@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -10,10 +11,10 @@ const Header = () => {
           <h2>Portfolio Maker</h2>
         </div>
         <nav className="nav">
-          <a href="/home">Home</a>
-          <a href="/templates">Templates</a>
-          <a href="/services">Services</a>
-          <a href="/portfolio-bot">Create Portfolio</a>
+          <Link to="/home">Home</Link>
+          <Link to="/templates">Templates</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/portfolio-bot">Create Portfolio</Link>
         </nav>
       </div>
     </header>

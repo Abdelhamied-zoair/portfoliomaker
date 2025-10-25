@@ -1,10 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from './Header';
 import ChatBot from './ChatBot';
 import Footer from './Footer';
 import './Home.css';
 
 const Home = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="home">
       <Header />
@@ -16,10 +19,10 @@ const Home = () => {
             <h1>Create Your Professional Portfolio in Minutes</h1>
             <p>Build stunning, responsive portfolios with our AI-powered portfolio maker. No coding required.</p>
             <div className="hero-buttons">
-              <button className="cta-button" onClick={() => window.location.href = '/portfolio-bot'}>
+              <button className="cta-button" onClick={() => navigate('/portfolio-bot')}>
                 Get Started Free
               </button>
-              <button className="secondary-button" onClick={() => window.location.href = '/templates'}>
+              <button className="secondary-button" onClick={() => navigate('/templates')}>
                 View Templates
               </button>
             </div>

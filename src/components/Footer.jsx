@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -19,10 +20,10 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="/home">Home</a></li>
-            <li><a href="/templates">Templates</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/portfolio-bot">Create Portfolio</a></li>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/templates">Templates</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/portfolio-bot">Create Portfolio</Link></li>
           </ul>
         </div>
 
@@ -43,12 +44,9 @@ const Footer = () => {
             <p>📞 +1 (555) 123-4567</p>
             <p>📍 123 Portfolio Street, Creative City</p>
           </div>
-          <button 
-            className="footer-cta"
-            onClick={() => window.location.href = '/portfolio-bot'}
-          >
+          <Link to="/portfolio-bot" className="footer-cta">
             Get Started
-          </button>
+          </Link>
         </div>
       </div>
       
